@@ -10,6 +10,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
+// data structure
 type Product struct {
 	ID          int     `json:"id"`
 	Name        string  `json:"name"`
@@ -19,7 +20,7 @@ type Product struct {
 }
 
 var products []Product
-var nextID int
+var nextID = 1
 
 func main() {
 	r := mux.NewRouter()
