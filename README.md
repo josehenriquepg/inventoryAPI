@@ -23,8 +23,8 @@ type Product struct {
 #### Installation
   1. Clone the repository:
 ```bash
-git clone https://github.com/josehenriquepg/inventoryAPI.git
-cd inventoryAPI
+git clone https://github.com/josehenriquepg/microservice-inventory.git
+cd microservice-inventory
 ```
   2. Build the project:
 ```bash
